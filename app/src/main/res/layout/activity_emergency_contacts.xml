@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency_contacts"
+    android:background="@drawable/bak">
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="140dp"
+        android:background="@android:color/white">
+
+        <!---Table Heading -->
+
+        <TableRow android:background="@color/colorGreen">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/col1"
+                android:textColor="@android:color/black"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/col2"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <!--Table Data-->
+
+        <!--Row 1-->
+        <TableRow>
+
+            <!--Row 2-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row1Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row1Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 2-->
+        <TableRow>
+            <!--Row 3-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row2Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row2Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 3-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row3Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row3Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 4-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row4Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row4Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 5-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row5Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row5Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 6-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row6Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row6Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 7-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row7Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row7Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <!--Row 8-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row8Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row8Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+        <!--Row 9-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row9Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/row9Number"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Emergency Contact List"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

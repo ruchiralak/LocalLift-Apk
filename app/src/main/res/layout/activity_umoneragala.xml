@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".U_moneragala"
+   >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Moneragala"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m1" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022Elevation: 151 m"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Area: 4,415 Km2"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Population: 10,123 (2012)"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Weather: 27°C, Wind NE at 5 km/h, 89% Humidity"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Monaragala is a town located in Monaragala District, Uva Province, Sri Lanka."
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 It is the largest town in Monaragala District and is located 57.3 km southeast of Badulla, the capital city of Uva Province."
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/mone_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="....Places to Visit in Moneragala...."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <!-- 1st one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:text="1.Buduruwagala"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m2" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Buduruwagala is an ancient buddhist temple in Sri Lanka. The complex consists of seven statues and belongs to the Mahayana school of thought."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The statues date back to the 10th century."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The gigantic Buddha statue still bears traces of its original stuccoed robe and a long streak of orange suggests it was once brightly painted."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Buduruwagala is the largest stone statue of Buddha in Sri Lanka. It should be noted that this is a slightly elevated (not fully raised) statue."
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!-- 2nd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:text="2.Ruhunu Maha Kataharagama Devalaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m3" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kataragama temple in Kataragama, Sri Lanka, is a temple complex dedicated to Buddhist guardian deity Kataragama deviyo and Hindu War God Murugan."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 It is one of the few religious sites in Sri Lanka that is venerated by the Buddhists, Hindus, Muslims and the Vedda people."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 For most of the past millennia, it was a jungle shrine very difficult to access; today it is accessible by an all-weather road.
+"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 For most of the past millennia, it was a jungle shrine very difficult to access; today it is accessible by an all-weather road.
+"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+            <!-- 3rd one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="3.Ellewela Waterfall"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m4" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Elle Wala Ella waterfall is situated 8km away from Wellawaya town. If you drive by Wellawaya it is about 8km distance but last 1km need to walk to the waterfall "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  Although this is popular bathing place with shallow water, there is a deep invisible cavity where water drops to pool. Therefore going underneath the waterfall is deadly."
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+            <!-- 4 one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="4.Biso Pond Galabedda"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m5" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Remains of a palace complex lies at the village of Galabedde (Galebedda), 10.5 km from Monaragala on the Pottuvil road. "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  The pool of the princess in the palace garden is one of the masterpieces of ancient Sinhala architecture. The pool is made out of solid rock with four water inlets from four sides. The water flows in the pond through the mouth of the mythical creature, ‘Makara’."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/m5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+            <!-- 5 one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="5.Kebiliththa Devalaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m6" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kebalittha Devalaya is also known as Siymbalawa Devalaya. This temple in a beautiful environment surrounded by Kumbukkan Oya in the Yala forest. "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  Many pilgrims are coming from various provinces. This is the place where the God of Katharagama Divine Dormition."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 There are many ways to reach this place. The main roads leading through the Panama via Knuman Sanctuary and via Kotiyagala are major roads. "
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+            <!-- 6 one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="6.Lakshmi Devalaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m7" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 It is the most important temple in Sri Lanka where offerings are made to Goddess Lakshmi, who is believed by Asian people to be the lord of wealth.   "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This shrine is very beautifully built. Located near the Kataragama Sacred City.  "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Built with the beauty of the natural environment. Here people sacrifice a lot of their wealth to God. Alms giving to breastfeeding mothers also takes place here.   "
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!-- 7 one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="7.Katharagama Kiri Vehara"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m8" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kiri Vehera is an ancient stupa situated in Kataragama, Sri Lanka. This stupa probably dates back to the 3rd century BC and is believed to have been built by King Mahasena, a regional ruler of Kataragama area."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 One of the most popular Buddhist pilgrimage sites in the country, Kiri Vehera is among the Solosmasthana, the 16 most sacred Buddhist pilgrimage sites of ancient Sri Lanka."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This stupa which is 95 ft. in height with a circumference of 280 ft. is located 800 m North to the famous Ruhunu Maha Kataragama Devalaya."
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!-- 8th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="8.Wesminister Abey"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m9" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Nice place to have a small hike take around 2 hours up and 1 hour to down. This is historical place on your way to Ampara from Siyabalanduwa  side."
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 You need to get approval from chief monk of the temple situated there. On the rock, you can see green environment breathtaking views ."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  Please don't pollute try this place as we need to protect this place to our future generations."
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!-- 9th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="9.Muthukandiya Reserviour"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m10" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 A beautiful place. Less crowded. If you are going through Siyambalanduwa - Ampara highway, take a little break at this reservoir. "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The place is about 2.3KM away from the main road . "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 it is worth to visit the place and enjoy the dryness and calmness. "
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/m10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!-- 10th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="10.Mayuragiriya Ancient Temple"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/m11" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 A very ancient Buddhist temple with lots of valuable artifacts which includes dagoba, statues, caves, stone inscriptions, ancient buildings etc. "
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Can reach to the top of the mountain through the temple and see all around Monaragala area. "
+                android:textSize="20dp"
+                />
+
+
+            <Button
+                android:id="@+id/m11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

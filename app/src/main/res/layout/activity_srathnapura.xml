@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".S_rathnapura">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Rathnapura"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Ratnapura is a major city in Sri Lanka. It is the capital city of Sabaragamuwa Province, as well as the Ratnapura District, and is a traditional centre for the Sri Lankan gem trade."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  It is located on the Kalu Ganga in south-central Sri Lanka, some 101 km southeast of the country's capital, Colombo."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="....Places to Visit in Rathnapura...."
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!--1st one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="1.Ranmadu Water Fall"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat1"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 One of the nice waterfall close to Colombo. You can go here for a half a day trip. Beautiful sceneries."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--2nd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="2.Sripada"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat2" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This is the place where left footprint left behind when lord buddha visited sri lanka. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 There are possible 6 trails. Rathnapura - Palabaddala, Hatton - Nallathanni, Kuruwita - Erathne, Murraywatte, Mookuwatte and malimboda. Trail season will start from december to april.woth to visit this beautiful place."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--3rd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="3.Elle Wala"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat3" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Good safety place for bath with cold environment."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--4th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="4.Miniran Ella"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat4" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Beautiful waterfall. safe to bath if your good at swiming. Hard to find this. This is a hidden gem in sri lanka.Relaxing experience with calm environment"
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--5th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="5.Balutota water fall"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat5" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The water of the Rakwana river, flowing through the Rakwana area, drops down to Galdola Falls and flows through clean springs of the Sinharaja Forest.  "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  When it comes to bathing down the hill across the mountain peak of the Suriyakanda Mountains, you can enjoy the fresh and cleanliness of the water in the tourist"
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--6th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="6.Kudawa Natural Pool"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat6" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 best place to swim and have a bath. water is clean and fresh. can use up and down side both. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  if you are taking down side, then better to find a road to reach a good place to bath and swim. up side can't swim, only bath. but really enjoyable place. keep the place clean."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--7th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="7.Ran Ella Fall"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rat7" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The best beautifully and naturally hidden place in sinharaja forest reserve.The fall is a victim of its own success.  "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Due to its popularity, especially at weekends, the surrounding ecosystem is under threat from large numbers of trampling visitors."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

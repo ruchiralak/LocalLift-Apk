@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Design Project - EEI4369</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="content_description">Map View</string>
+    <string name="type_here">type here</string>
+    <string name="button">Button</string>
+    <string name="col1">Emergency Services</string>
+    <string name="col2">Number</string>
+
+    <string name="row1Name">Police Emergency Hotline</string>
+    <string name="row1Number">118 / 119</string>
+
+    <string name="row2Name">Ambulance / Fire &amp; rescue</string>
+    <string name="row2Number">110</string>
+
+    <string name="row3Name">Accident-Service-General Hospital-Colombo</string>
+    <string name="row3Number">011-2691111</string>
+
+    <string name="row4Name">Tourist Police</string>
+    <string name="row4Number">011-2421052</string>
+
+    <string name="row5Name">Police Emergency</string>
+    <string name="row5Number">011-2433333</string>
+
+    <string name="row6Name">Government Information Center</string>
+    <string name="row6Number">1919</string>
+
+    <string name="row7Name">Report Crimes</string>
+    <string name="row7Number">011-2691500</string>
+
+    <string name="row8Name">Emergency Police Mobile Squad</string>
+    <string name="row8Number">011-5717171</string>
+
+    <string name="row9Name">Fire &amp; Ambulance Service</string>
+    <string name="row9Number">011-2422222</string>
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sou_hambantota">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Hambantota"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hamban" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Hambantota is the main town in Hambantota District, Southern Province, Sri LankaThe prominent Malays most part of the population is to be partly descended from seafarers from the Malay Archipelago who travelled through the Magampura port, and over time settled down. "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Hambantota Wind Farm is the first wind farm in Sri Lanka (there are two more commercial wind farms). "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="....Places to Visit in Hambantota...."
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!--1st one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="1.Dry Zone Botanic Gardens"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ham1"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Dry Zone Botanic Gardens is the first botanic garden in Sri Lanka designed by the local experts and the first botanic garden created after Botanic Garden at Gampaha which was created 130 years ago."
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This is the first botanic garden in Sri Lanka created in the semi-arid zone to conserve semi-arid and dry zone plants ex- situ as one of the main purposes. This botanic garden is located in Hambantota District. "
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--2nd one-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="2.Yala National Park"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ham2"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Yala National Park is the second largest national park in Sri Lanka and is one of the most visited national parks in the country. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 There are 32 recorded species of reptiles and various kinds of birds. It gives the tourist a chance to witness the diverse wildlife of Sri-Lanka."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--3rd one-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="3.Birds Research Centre And Resort"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ham3"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This place houses magnificent types of exotic birds. One can even feed the parrots and interact with them or just see the amazing species of birds from all around the world. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Some of the rare and endangered species of Asian birds can also be sighted here. There is also a restaurant inside in case you need to satisfy your cravings for Sri Lankan food."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

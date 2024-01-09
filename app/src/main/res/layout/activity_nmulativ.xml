@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".N_mulativ">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Mullative"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul0" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Area: 2,617 km2"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Population: 91,947(2012 census)"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Weather: 36°C, Wind S at 13 km/h, 58% Humidity"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 A largely fishing settlement, the town in the early twentieth century grew as an anchoring harbour of the small sailing vessels transporting goods between Colombo and Jaffna."
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The town has a District Secretary's office, many other government institutions and schools located in and around the area."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="....Places to Visit in Mullativu...."
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!--1st one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:text="1.Chundikulam Beach"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul1"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Chundikulam Beach side, near chundikulam bird Sanctuary. quite place.Beautiful Beach located in mullaitivu"
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--2nd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:text="2.Submarine Yard"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul2" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Exhibition site of the captured boats and submarines that belonged to the LTTE. Need prior permission from the SL army to enter the premises "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--3rd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="10dp"
+                android:text="3.Puthukkudiyiruppu War Museum"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul3" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Shows how the Sri Lankan armed forces saved the trapped citizens from war front and pictorial story of the war with the terrorists "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--4th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:text="4.Muthuiayankadu Kulam"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul4" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 One of the big tank in the vanni. It�s in the mullaitivu district.supply water for farming.people says it was built by a Tamil king MUTTHAIYAN. It is very deep water.it�s not safe to bath in tank when it�s full."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--5th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="5. Kurundi Temple"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul5" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Thousands of years old ruins of a large Buddhist monastery complex is still available here. Kurundi Atuwawa was written here. It is a national heritage of Sri Lanka "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--6th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="6.Maha chola wewa"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul6" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Nice place with a natural environment mind relaxing place"
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--7th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="7.Nayaru Lagoon"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul7" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 It's a quite natural site for a photo shoot . Hard rock belt on coast of sea make some wonderful scenes . Though it beautiful ,it's much dangerous too. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--8th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="8.Wrekcs of 'Fara 3' Jordan Ship"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul8" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Farah III shipwreck is a cargo ship that has been run aground on a beach on the east coast of Sri Lanka since 2006. At the time, the LTTE assumed control of the ship and subsequently used it as an operational centre by the militant group's naval."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--9th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="9.Nayuru Rajamaha Viharaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul9" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Nayaru Raja Maha Viharaya is an old buddhist shrine/temple(dated back to 2000 years) and which is archaeological Site which belongs to Department of Archaeology land of 3 Acres. In 2008 SL Army rebuilt the temple which was destructed in the past decades"
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--10th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="10. Nanthi Kadal Lagoon"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mul_10" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Lagoon is connected to the sea by a very narrow strip of water. There is a narrow low lying bridge across this waterway on which only one vehicle could pass at a time. Wattapalei Amman Kovil is a religious place which attracts thousands of pilgrims and local tourists to the area. It is the highlight of the shore of the lagoon. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

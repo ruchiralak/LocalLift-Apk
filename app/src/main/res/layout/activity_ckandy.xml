@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_kandy">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Kandy"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kand" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest. "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada Maligawa) shrine, celebrated with the grand Esala Perahera annual procession. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="...Places to Visit in Kandy..."
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!--1st one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="1.The Temple of the Sacred Tooth Relic"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan1"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Temple of the Sacred Tooth Relic, or Sri Dalada Maligawa, is the most sacred Buddhist temple in the world. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 It houses the tooth of Buddha nestled in a golden chamber and is within the premises of the royal palace complex."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--2nd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="2.Royal Botanical Gardens"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan2" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The most prominent garden in Sri Lanka, Royal Botanical Gardens is situated 5 km west of Kandy."
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The gardens are home to more than 4000 species of plants, including orchids, spices, medicinal plants, and palm trees."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--3rd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="3.Kandy Lake"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan3" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kandy Lake, the sea of Milk or Kiri Muhuda, is an artificial lake bordering the Royal Palace and Royal Gardens.  "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Boat rides on the lake is a fun
+                way to spend an evening here. The pathway around the lake stretches for 2.1 miles and is perfect for walking, jogging, or even early morning yoga. "
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--4th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="4.Kandy View Point"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan4" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Visiting Sri Lanka's second largest city, Kandy and not exploring Kandy viewpoint will be a major miss. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Located 1.7 KM from the main Kandy city, Kandy view point is regarded as the highest point in the city from where one can appreciate Kandy lake as
+                if just below their feet and also the Dalada Maligawa Temple. "
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--5th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="5.Big Buddha Statue"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan5" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Sri Maha Bodhi Viharaya or Bahirawakanda Vihara Buddha is a Theravada Buddhist temple atop a hill in Kandy. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 True to its name “Big Buddha” is known for being a powerful and giant Buddha statue that overlooks the princely state of Kandy.  "
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--6th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="6.Ceylon Tea Museaum"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan6" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Ceylon Tea Museum was structured in 1925 as the former Hantana Tea factory.
+                 Later in 1998, this tea factory was converted into the famous Ceylon Tea Museum. "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  It showcases the history and heritage of the world-famous and finest Ceylon tea."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--7th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="7.Lankathilaka Temple"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan7" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The famous Lankatilaka temple of the Gampola period, attached with a rich history and incredible architecture, portrays the
+                essence of Sri Lanka from the 14th century during the Gampola reign."
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  It is located in Kandy near the Gadaladeniya Vihara Buddhist temple."
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--8th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="8.Wales Park"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kan8" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Wales Park, also known as The Royal Palace Park, offers majestic views of Kandy Lake and the city."
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Tourists can walk through the walking trails and the woodlands and check out the Japanese field gun on show.  "
+                android:textSize="15dp"
+                />
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

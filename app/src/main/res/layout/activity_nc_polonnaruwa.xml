@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NC_polonnaruwa">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your child views here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:text="Polonnaruwa"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/polonn" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The second oldest of all Sri Lanka's kingdoms, Polonnaruwa was first established as a military post by the Sinhalese kingdom."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Ancient City of Polonnaruwa has been declared a World Heritage Site. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="....Places to Visit in Polonnaruwa...."
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <!--1st one -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="1.The Royal Palace Of King Parakramabahu"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol1"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Constructed under the reign of King Mahaparakram Bahu between the years 1153 to 1186, the striking Royal Palace stands as the emblem of grandeur in the ancient city of Polonnaruwa, Sri Lanka. "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Royal Palace of King Parakramabahu is a place of great historical importance, the reason why it was declared a World Heritage site by UNESCO in the year 1982."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--2nd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="2.Minneriya National Park"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol2" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The Minneriya National Park is in the Northern province of Sri Lanka, four hours away from Colombo, and 30 minutes away from Sigiriya."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The national park is famous for its herds of elephants migrating for food, water and shelter, and forming a 'gathering' that can be witnessed by the visitors. The dry season is the best time to visit this place, as the majestic elephants migrate to the Minneriya Tank for water."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--3rd one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="3.Rankoth Vehera"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol3" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This magnificent stupa is situated in Polonnaruwa and is the 4th largest stupa in Sri Lanka."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Built by the Nissanka Malla(1187-1196) it is one of the most sought after tourist attractions, i.e. 'dagobas' of the country. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--4th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="4.Archaeological Museum"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol4" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The city has rooms full of excavated artefacts, which form the archaeological museum of Polonnaruwa."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The museum was established in the Public Services Sports Club Hall at Polonnaruwa in 1962 and depicted scenes from 1012 A.D. During this period, the region was ruled by the Chola dynasty, which had some of the mightiest rulers. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--5th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="5.Kiri Vihara"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol5" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Kiri Vihara is a dagoba or stupa in Kataragama region in the ancient city of Polonnaruwa, North Central Province, Sri Lanka.  "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 This an 80 feet tall, whitewashed, peaceful stupa is the second largest stupa in the town. Kiri Vihara was constructed in the 11th century AD, by King Parakramabahu's queen, Queen Subhadra. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--6th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="6.Vatadage"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol6" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Polonnaruwa Vatadage is a well-preserved Vatadage in the famous Dalada Maluwa quadrangle of the ancient city of ruins, Polonnaruwa.  "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 These are circular, constructed using stone and brick with intricate stone carvings and a wooden roof. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--7th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="7.Nissanka Latha Mandapaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol7" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Nissanka Latha Mandapaya is a unique structure located in Sri Lanka. This architectural marvel is one of it's kind for many reasons. "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022  Nissanka Latha Mandapaya is a unique structure located in Dalada Maluwa quadrangle of Polonnaruwa district in North Central Province, Sri Lanka. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--8th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="8.Dalada Maluwa,Polonnaruwa"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol8" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The circular building of Dalada Maluwa, also known as Terrace of the Tooth Relic of Lord Buddha, is a beautiful work of art and architecture of the 12th century."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Dalada Maluwa was built by King Parakrambahu the great (1164-1196AD), it was later enhanced and decorated by King Nissankamalla (1198-1206). "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--9th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="9.Angammedilla National Park"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol9" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 About half an hour away from the historical city of Polonnaruwa, bordered by the Angammedilla Canal in the south, lies Angammedilla National Park. "
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 A relatively more recent addition to Sri Lanka’s long list of protected areas, Angammedilla National Park is a habitat for a wide variety of flora and fauna.  "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+            <!--10th one -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="10.Pothgul Viharaya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pol10" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 Pothgul Viharaya is an old library and monastery in the Polonnaruwa district of Sri Lanka."
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\u2022 The ruins of this ancient library date back to the twelfth century. The name Pothgul itself means 'Bookstore'. "
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View On Map"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
